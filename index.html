@@ -12,23 +12,36 @@
   <body>
     <div class="card container my-5" style="width: 20%;">       
         <div class="card-body">
-            <div class="form-group">
-                <h1>Bài tập </h1>             
-                <label>Nhập 5 số nguyên</label> 
-                <div id="value">
-                    <input type="text" class="form-control" name="" id="number1" placeholder="Nhập số nguyên 1"><br>                
-                    <input type="text" class="form-control" name="" id="number2" placeholder="Nhập số nguyên 2" ><br>
-                    <input type="text" class="form-control" name="" id="number3" placeholder="Nhập số nguyên 3"><br>                
-                    <input type="text" class="form-control" name="" id="number4" placeholder="Nhập số nguyên 4" ><br>
-                    <input type="text" class="form-control" name="" id="number5" placeholder="Nhập số nguyên 5" ><br>
-                </div>                 
-                <button id="btnTotalPossitive" class="btn btn-success my-2">Tính tổng các số dương</button>
-                <button id="btnCountPossitive" class="btn btn-success my-2">Đếm số lượng số dương</button>
-                <button id="btnFindMinumum" class="btn btn-success my-2">Tìm số nhỏ nhất</button>
-                <button id="btnFindMinumumPossitive" class="btn btn-success my-2">Tìm số dương nhỏ nhất</button>
-                <button id="btnFindFinalEven" class="btn btn-success my-2">Tìm số dương cuối cùng</button>
-            </div>
+          <div class="form-group">
+            <h1>Bài tập </h1>             
+            <label>Nhập số</label> 
+            <div>
+                <input type="text" class="form-control" name="" id="number" placeholder="Nhập số nguyên"><br>                  
+            </div>        
+            <div id="resultArray"></div>                     
+            <button id="btnAddNumber" class="btn btn-success my-2">Thêm số</button>              
+          </div>
+          <div>
+            <h5>Kết quả:</h5>
             <div id="result"></div>
+          </div>
+          
+          <button id="btnTotalPossitive" class="btn btn-success my-2">Tính tổng các số dương</button>
+          <button id="btnCountPossitive" class="btn btn-success my-2">Đếm số lượng số dương</button>
+          <button id="btnFindMinumum" class="btn btn-success my-2">Tìm số nhỏ nhất</button>
+          <button id="btnFindMinumumPossitive" class="btn btn-success my-2">Tìm số dương nhỏ nhất</button>
+          <button id="btnFindFinalEven" class="btn btn-success my-2">Tìm số chẵn cuối cùng</button><br>
+          <input style="width: 50%;" type="text" class="form-control" name="" id="position1" placeholder="Vị trí 1">             
+          <input style="width: 50%;" type="text" class="form-control" name="" id="position2" placeholder="Vị trí 2">
+          <button id="btnChangePosition" class="btn btn-success my-2">Đổi vị trí 2 giá trị</button>
+          <button id="btnArrangeAscending" class="btn btn-success my-2">Sắp xếp tăng dần</button>
+          <button id="btnFirstPrime" class="btn btn-success my-2">Số nguyên tố đầu tiên</button>
+          <div id="value1">
+            <input type="text" class="form-control" name="" id="number1" placeholder="Nhập số thực"><br>                  
+          </div>                             
+          <button id="btnAddNumber1" class="btn btn-success my-2">Thêm số</button>
+          <button id="btnCountInteger" class="btn btn-success my-2">Đếm số nguyên</button>  
+          <button id="btnCompare" class="btn btn-success my-2">So sánh số dương và số âm</button>           
         </div>
       </div>
     <!-- Optional JavaScript -->
